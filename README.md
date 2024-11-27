@@ -33,3 +33,13 @@ python main.py   --task-type train   --config path_to_config
 --model-name  lstm
 
 ``` 
+
+## Test Task
+**Test**:
+``` 
+python main.py   --task-type test   --config path_to_config 
+--data-dir  path_to_data_dir  --work_dir path_to_work_dir
+--model-dir path_to_model_dir
+--model-name  lstm
+
+``` 
