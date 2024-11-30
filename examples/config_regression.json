@@ -1,0 +1,17 @@
+{
+    "general":{
+        "num_epochs" : 100,
+        "lr" : 0.01, 
+        "feature_size": 30,
+        "batch_size": 64,
+        "early_stopping_patience": 10,
+        "early_stopping_tolerance": 0.001
+    },
+    "lstm":{
+        "window_size": 168, 
+        "hidden_size": 128,
+        "num_layers" : 2,
+        "dropout_ratio" : 0.2,
+        "linear_size": 64
+    }
+}

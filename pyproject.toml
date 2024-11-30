@@ -1,0 +1,45 @@
+[tool.black]
+line-length = 100
+
+[tool.flake8]
+max-line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_untyped_defs = true
+implicit_reexport = false
+warn_no_return = true
+warn_unreachable = true
+warn_unused_ignores = true
+
+[tool.poetry]
+name = "time-series-forecasting"
+version = "0.1.0"
+description = "A Library for time series forecasting"
+authors = ["Danial Ghasemi <danial92gh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+torch = "^2.3.1"
+matplotlib = "^3.9.2"
+numpy = "^1.26.4"
+python-dateutil = "^2.9.0.post0"
+isodate = "^0.6.1"
+scikit-learn = "1.5.0"
+
+[tool.poetry.group.dev.dependencies]
+autoflake = "^2.3.1"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
