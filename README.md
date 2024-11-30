@@ -1,4 +1,4 @@
-# My Forecasting Library
+# Forecasting Library
 
 This library is designed for time series forecasting, leveraging both regression and neural network models. Its architecture is highly extensible, allowing seamless integration with additional modeling approaches.
 
